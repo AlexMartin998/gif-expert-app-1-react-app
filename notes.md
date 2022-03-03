@@ -32,9 +32,15 @@
 
 
 6. Desplegar App de React en Github Pages:
-  - Colocar   .   en las rutas del   asset-manifest.js   q se genera en el build de produccion
+  - Proceso AUTOMATICO:
+    - package.json
+      - "homepage": ".",
+        - scripts:
+          - "build": "react-scripts build && rm -rf docs && mv build docs",
+          - 
+  <!-- - Colocar   .   en las rutas del   asset-manifest.js   q se genera en el build de produccion
   - Si auna si no funciona, colocar   .   en cada  href  a archivos internos de la app en el HTML
 
-  npm install gh-pages — save-dev
+  npm install gh-pages — save-dev -->
 
-  https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/
+  
