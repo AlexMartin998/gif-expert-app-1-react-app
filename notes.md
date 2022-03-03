@@ -28,3 +28,11 @@
 5. Servidor opcional
   - http-server
       - Monta rapido un server
+
+
+
+6. Desplegar App de React en Github Pages:
+  - Colocar   .   en las rutas del   asset-manifest.js   q se genera en el build de produccion
+  - Si auna si no funciona, colocar   .   en cada  href  a archivos internos de la app en el HTML
+
+  npm install gh-pages — save-dev
