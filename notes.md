@@ -36,3 +36,5 @@
   - Si auna si no funciona, colocar   .   en cada  href  a archivos internos de la app en el HTML
 
   npm install gh-pages — save-dev
+
+  https://www.c-sharpcorner.com/article/how-to-deploy-react-application-on-github-pages/
